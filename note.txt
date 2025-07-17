@@ -1,0 +1,1 @@
+taskkill /IM ollama.exe /F - run in cmd to kill Ollama that is running in the background 
