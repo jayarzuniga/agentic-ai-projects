@@ -1,0 +1,12 @@
+Hi everyone,
+
+My name is Jonh Ronel Zuñiga, but feel free to call me Jay-R! 
+
+I'm a graduating student from AMA University. My primary programming language is Python, and I mainly work with the Django framework. I also use a bit of JavaScript, especially when working with React and Firebase for web applications. Also has a growing passion for cloud computing, I'm actively exploring how cloud technologies like IaaS, PaaS, and SaaS can be used to solve real-world challenges especially on how it is used for application deployment.
+
+I love joining hackathons to sharpen my coding skills, collaborate with others, and push my limits as a developer. One of the highlights of my journey so far has been joining Appcon, an IoT and AI-focused hackathon, where our team won Best Technology in 2023 and became the Grand Winner in 2024.
+
+Fun fact about me: I really enjoy the fast-paced energy of hackathons. It’s where I learned the most, make my hair a little bit more whiter by solving a lot of problems, build cool stuffs, and make new friends!
+
+If you'd like to learn more or connect, feel free to visit my LinkedIn: www.linkedin.com/in/jonhzuniga.
+I'm excited to connect and get to know all of you!
