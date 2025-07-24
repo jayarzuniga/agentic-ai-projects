@@ -1,0 +1,410 @@
+{
+  "design_system": {
+    "name": "Healthcare Platform Design System",
+    "version": "1.0.0",
+    "description": "Modern healthcare booking platform with clean, professional aesthetics and user-centric design patterns",
+    
+    "color_palette": {
+      "primary": {
+        "blue_600": "#2563eb",
+        "blue_500": "#3b82f6",
+        "blue_400": "#60a5fa",
+        "blue_300": "#93c5fd"
+      },
+      "secondary": {
+        "teal_500": "#14b8a6",
+        "teal_400": "#2dd4bf",
+        "teal_300": "#5eead4"
+      },
+      "neutral": {
+        "white": "#ffffff",
+        "gray_50": "#f9fafb",
+        "gray_100": "#f3f4f6",
+        "gray_200": "#e5e7eb",
+        "gray_300": "#d1d5db",
+        "gray_400": "#9ca3af",
+        "gray_500": "#6b7280",
+        "gray_600": "#4b5563",
+        "gray_700": "#374151",
+        "gray_800": "#1f2937",
+        "gray_900": "#111827"
+      },
+      "semantic": {
+        "success": "#10b981",
+        "warning": "#f59e0b",
+        "error": "#ef4444",
+        "info": "#3b82f6"
+      }
+    },
+
+    "typography": {
+      "font_families": {
+        "primary": "Inter, system-ui, -apple-system, sans-serif",
+        "secondary": "Inter, sans-serif"
+      },
+      "font_weights": {
+        "light": 300,
+        "regular": 400,
+        "medium": 500,
+        "semibold": 600,
+        "bold": 700,
+        "extrabold": 800
+      },
+      "font_sizes": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.25rem",
+        "2xl": "1.5rem",
+        "3xl": "1.875rem",
+        "4xl": "2.25rem",
+        "5xl": "3rem",
+        "6xl": "3.75rem"
+      },
+      "line_heights": {
+        "tight": 1.25,
+        "normal": 1.5,
+        "relaxed": 1.75
+      }
+    },
+
+    "spacing": {
+      "scale": "8px base unit",
+      "values": {
+        "xs": "0.25rem",
+        "sm": "0.5rem",
+        "md": "1rem",
+        "lg": "1.5rem",
+        "xl": "2rem",
+        "2xl": "3rem",
+        "3xl": "4rem",
+        "4xl": "6rem",
+        "5xl": "8rem"
+      }
+    },
+
+    "layout_patterns": {
+      "header": {
+        "type": "horizontal_navigation",
+        "height": "80px",
+        "background": "white",
+        "shadow": "subtle",
+        "structure": {
+          "logo_position": "left",
+          "navigation_position": "center",
+          "cta_position": "right",
+          "max_width": "1200px",
+          "padding": "0 24px"
+        }
+      },
+      
+      "hero_section": {
+        "type": "split_layout",
+        "background": "gradient_or_image",
+        "text_alignment": "left",
+        "structure": {
+          "content_width": "50%",
+          "visual_width": "50%",
+          "padding": "80px 0",
+          "max_width": "1200px"
+        }
+      },
+
+      "feature_cards": {
+        "type": "three_column_grid",
+        "card_style": "elevated",
+        "layout": {
+          "columns": 3,
+          "gap": "24px",
+          "card_padding": "32px",
+          "border_radius": "16px"
+        }
+      },
+
+      "statistics_section": {
+        "type": "metrics_display",
+        "layout": {
+          "columns": 2,
+          "alignment": "center",
+          "number_emphasis": "large_bold",
+          "description_style": "subtitle"
+        }
+      },
+
+      "doctor_profiles": {
+        "type": "card_grid",
+        "layout": {
+          "columns": 3,
+          "card_aspect": "portrait",
+          "image_style": "circular_or_rounded",
+          "text_alignment": "center"
+        }
+      }
+    },
+
+    "component_library": {
+      "buttons": {
+        "primary": {
+          "background": "blue_600",
+          "text_color": "white",
+          "padding": "12px 24px",
+          "border_radius": "8px",
+          "font_weight": "medium",
+          "hover_state": "darken_5%",
+          "transition": "0.2s ease"
+        },
+        "secondary": {
+          "background": "transparent",
+          "text_color": "blue_600",
+          "border": "1px solid blue_600",
+          "padding": "12px 24px",
+          "border_radius": "8px",
+          "font_weight": "medium",
+          "hover_state": "background_blue_50"
+        },
+        "ghost": {
+          "background": "transparent",
+          "text_color": "gray_700",
+          "padding": "12px 16px",
+          "hover_state": "background_gray_100"
+        }
+      },
+
+      "cards": {
+        "feature_card": {
+          "background": "white",
+          "border_radius": "16px",
+          "padding": "32px",
+          "shadow": "0 4px 6px rgba(0, 0, 0, 0.07)",
+          "border": "1px solid gray_200",
+          "hover_state": "lift_shadow",
+          "icon_style": "outlined_in_circle",
+          "icon_color": "blue_600"
+        },
+        "profile_card": {
+          "background": "white",
+          "border_radius": "12px",
+          "padding": "24px",
+          "shadow": "0 2px 4px rgba(0, 0, 0, 0.05)",
+          "text_alignment": "center",
+          "image_style": "circular_avatar"
+        },
+        "info_card": {
+          "background": "blue_600",
+          "text_color": "white",
+          "border_radius": "16px",
+          "padding": "24px",
+          "overlay_style": "translucent"
+        }
+      },
+
+      "navigation": {
+        "main_nav": {
+          "items": ["horizontal_list"],
+          "spacing": "32px",
+          "font_weight": "medium",
+          "active_state": "blue_600",
+          "hover_state": "blue_500"
+        },
+        "dropdown": {
+          "trigger": "chevron_down",
+          "background": "white",
+          "shadow": "elevated",
+          "border_radius": "8px"
+        }
+      },
+
+      "forms": {
+        "input_fields": {
+          "border": "1px solid gray_300",
+          "border_radius": "8px",
+          "padding": "12px 16px",
+          "focus_state": "blue_600_border",
+          "placeholder_color": "gray_400"
+        },
+        "search_bar": {
+          "style": "pill_shaped",
+          "icon": "magnifying_glass",
+          "background": "gray_100"
+        }
+      },
+
+      "icons": {
+        "style": "outline",
+        "library": "heroicons_or_similar",
+        "sizes": {
+          "sm": "16px",
+          "md": "24px",
+          "lg": "32px",
+          "xl": "48px"
+        },
+        "usage": {
+          "feature_cards": "contained_in_circle",
+          "navigation": "inline_with_text",
+          "buttons": "leading_icon"
+        }
+      },
+
+      "images": {
+        "hero_images": {
+          "style": "photography",
+          "aspect_ratio": "16:9",
+          "overlay": "gradient_or_solid",
+          "treatment": "slightly_rounded_corners"
+        },
+        "profile_images": {
+          "style": "professional_headshots",
+          "shape": "circular",
+          "aspect_ratio": "1:1",
+          "border": "subtle_gray_border"
+        },
+        "device_mockups": {
+          "style": "realistic_3d",
+          "positioning": "floating_or_angled",
+          "shadow": "realistic_drop_shadow"
+        }
+      }
+    },
+
+    "visual_hierarchy": {
+      "headings": {
+        "h1": {
+          "font_size": "5xl",
+          "font_weight": "bold",
+          "line_height": "tight",
+          "color": "gray_900",
+          "margin_bottom": "lg"
+        },
+        "h2": {
+          "font_size": "4xl",
+          "font_weight": "bold",
+          "line_height": "tight",
+          "color": "gray_900",
+          "margin_bottom": "md"
+        },
+        "h3": {
+          "font_size": "2xl",
+          "font_weight": "semibold",
+          "color": "gray_800",
+          "margin_bottom": "sm"
+        }
+      },
+      "body_text": {
+        "primary": {
+          "font_size": "lg",
+          "line_height": "relaxed",
+          "color": "gray_600"
+        },
+        "secondary": {
+          "font_size": "base",
+          "line_height": "normal",
+          "color": "gray_500"
+        }
+      },
+      "emphasis": {
+        "statistics": {
+          "font_size": "4xl",
+          "font_weight": "bold",
+          "color": "gray_900"
+        },
+        "highlights": {
+          "color": "blue_600",
+          "font_weight": "semibold"
+        }
+      }
+    },
+
+    "interaction_patterns": {
+      "hover_effects": {
+        "cards": "subtle_lift_and_shadow_increase",
+        "buttons": "color_darkening_or_brightening",
+        "links": "underline_animation",
+        "images": "slight_scale_increase"
+      },
+      "transitions": {
+        "duration": "0.2s to 0.3s",
+        "easing": "ease or ease-out",
+        "properties": ["transform", "box-shadow", "background-color", "border-color"]
+      },
+      "loading_states": {
+        "skeleton_screens": "gray_placeholder_blocks",
+        "spinners": "circular_blue_spinner",
+        "progress": "blue_progress_bars"
+      }
+    },
+
+    "responsive_behavior": {
+      "breakpoints": {
+        "mobile": "640px",
+        "tablet": "768px",
+        "desktop": "1024px",
+        "large_desktop": "1280px"
+      },
+      "layout_adaptations": {
+        "navigation": "hamburger_menu_on_mobile",
+        "hero": "stack_vertically_on_mobile",
+        "cards": "single_column_on_mobile",
+        "statistics": "stack_on_tablet"
+      },
+      "typography_scaling": {
+        "mobile": "reduce_font_sizes_by_0.25_scale",
+        "tablet": "slight_reduction_in_headings",
+        "desktop": "full_scale"
+      }
+    },
+
+    "content_patterns": {
+      "hero_sections": {
+        "structure": "headline + subtitle + cta",
+        "headline_pattern": "benefit_focused_statement",
+        "subtitle_pattern": "supporting_details_or_social_proof",
+        "cta_pattern": "action_oriented_button"
+      },
+      "feature_showcases": {
+        "structure": "icon + title + description",
+        "title_pattern": "action_or_feature_name",
+        "description_pattern": "benefit_explanation"
+      },
+      "social_proof": {
+        "statistics": "large_numbers_with_context",
+        "testimonials": "user_quotes_with_attribution",
+        "trust_indicators": "partner_logos_or_certifications"
+      }
+    },
+
+    "accessibility": {
+      "color_contrast": "WCAG_AA_compliant",
+      "focus_indicators": "blue_outline_ring",
+      "keyboard_navigation": "tab_order_logical",
+      "semantic_markup": "proper_heading_hierarchy",
+      "alt_text": "descriptive_for_all_images",
+      "aria_labels": "screen_reader_friendly"
+    },
+
+    "mobile_specific": {
+      "touch_targets": "minimum_44px",
+      "gesture_support": "swipe_for_carousels",
+      "viewport_meta": "responsive_scaling",
+      "performance": "optimized_images_and_lazy_loading"
+    }
+  },
+
+  "implementation_guidelines": {
+    "css_methodology": "utility_first_or_component_based",
+    "framework_recommendations": "tailwindcss_or_styled_components",
+    "design_tokens": "use_css_custom_properties",
+    "component_structure": "atomic_design_principles",
+    "state_management": "clear_active_disabled_loading_states",
+    "animation_library": "framer_motion_or_css_transitions"
+  },
+
+  "usage_notes": {
+    "brand_voice": "professional_yet_approachable",
+    "imagery_style": "authentic_diverse_healthcare_focused",
+    "content_tone": "trustworthy_and_informative",
+    "user_experience": "streamlined_booking_process",
+    "performance_targets": "fast_loading_mobile_optimized",
+    "testing_considerations": "cross_browser_accessibility_mobile"
+  }
+}
